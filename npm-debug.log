@@ -1,0 +1,112 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ilxanlar/.nvm/versions/node/v5.11.0/bin/node',
+1 verbose cli   '/home/ilxanlar/.nvm/versions/node/v5.11.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.8.6
+3 info using node@v5.11.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/ilxanlar/evand/evand-landing-icons',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/ilxanlar/.npm/evand-landing-icons/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /home/ilxanlar/.npm correctMkdir not in flight; initializing
+10 info lifecycle evand-landing-icons@1.0.0~prepublish: evand-landing-icons@1.0.0
+11 verbose lifecycle evand-landing-icons@1.0.0~prepublish: unsafe-perm in lifecycle true
+12 verbose lifecycle evand-landing-icons@1.0.0~prepublish: PATH: /home/ilxanlar/.nvm/versions/node/v5.11.0/lib/node_modules/npm/bin/node-gyp-bin:/home/ilxanlar/evand/evand-landing-icons/node_modules/.bin:/home/ilxanlar/.nvm/versions/node/v5.11.0/bin:~/Android/Sdk/tools:~/Android/Sdk/platform-tools:/home/ilxanlar/.nvm/versions/node/v5.11.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ilxanlar/.yarn/bin
+13 verbose lifecycle evand-landing-icons@1.0.0~prepublish: CWD: /home/ilxanlar/evand/evand-landing-icons
+14 silly lifecycle evand-landing-icons@1.0.0~prepublish: Args: [ '-c', 'grunt' ]
+15 silly lifecycle evand-landing-icons@1.0.0~prepublish: Returned: code: 0  signal: null
+16 verbose tar pack [ '/home/ilxanlar/.npm/evand-landing-icons/1.0.0/package.tgz',
+16 verbose tar pack   '/home/ilxanlar/evand/evand-landing-icons' ]
+17 verbose tarball /home/ilxanlar/.npm/evand-landing-icons/1.0.0/package.tgz
+18 verbose folder /home/ilxanlar/evand/evand-landing-icons
+19 verbose addLocalTarball adding from inside cache /home/ilxanlar/.npm/evand-landing-icons/1.0.0/package.tgz
+20 verbose correctMkdir /home/ilxanlar/.npm correctMkdir not in flight; initializing
+21 silly cache afterAdd evand-landing-icons@1.0.0
+22 verbose afterAdd /home/ilxanlar/.npm/evand-landing-icons/1.0.0/package/package.json not in flight; writing
+23 verbose correctMkdir /home/ilxanlar/.npm correctMkdir not in flight; initializing
+24 verbose afterAdd /home/ilxanlar/.npm/evand-landing-icons/1.0.0/package/package.json written
+25 silly publish { name: 'evand-landing-icons',
+25 silly publish   version: '1.0.0',
+25 silly publish   description: 'The icon font used in evand',
+25 silly publish   main: 'index.js',
+25 silly publish   repository:
+25 silly publish    { type: 'git',
+25 silly publish      url: 'git+https://gitlab.com/evandhq/evand-landing-icons.git' },
+25 silly publish   scripts:
+25 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+25 silly publish      prepublish: 'grunt' },
+25 silly publish   author: { name: 'Mehdi Namvar' },
+25 silly publish   license: 'ISC',
+25 silly publish   devDependencies: { grunt: '^0.4.5', 'grunt-webfont': '^1.1.1' },
+25 silly publish   gitHead: 'c777a386f72e53a939562bdddd9d004856b7ba52',
+25 silly publish   bugs: { url: 'https://gitlab.com/evandhq/evand-landing-icons/issues' },
+25 silly publish   readme: 'ERROR: No README data found!',
+25 silly publish   homepage: 'https://gitlab.com/evandhq/evand-landing-icons#README',
+25 silly publish   _id: 'evand-landing-icons@1.0.0',
+25 silly publish   _shasum: '25b3ed3321cec9f46667da918770ab1a10fd0d09',
+25 silly publish   _from: '.' }
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name evand-landing-icons
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'evand-landing-icons',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   name: 'evand-landing-icons',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/evand-landing-icons
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /home/ilxanlar/.npm/evand-landing-icons/1.0.0/package.tgz
+34 verbose request uri https://registry.npmjs.org/evand-landing-icons
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 2:30:22 PM
+37 verbose request using bearer token for auth
+38 verbose request id d6117eb4ba05164b
+39 http request PUT https://registry.npmjs.org/evand-landing-icons
+40 http 403 https://registry.npmjs.org/evand-landing-icons
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '95',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Tue, 22 Nov 2016 11:00:24 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-fra1247-FRA',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1479812423.723867,VS0,VE1199',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 verbose request invalidating /home/ilxanlar/.npm/registry.npmjs.org/evand-landing-icons on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : evand-landing-icons
+44 verbose stack     at makeError (/home/ilxanlar/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/home/ilxanlar/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+44 verbose stack     at Request._callback (/home/ilxanlar/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+44 verbose stack     at Request.self.callback (/home/ilxanlar/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+44 verbose stack     at emitTwo (events.js:100:13)
+44 verbose stack     at Request.emit (events.js:185:7)
+44 verbose stack     at Request.<anonymous> (/home/ilxanlar/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+44 verbose stack     at emitOne (events.js:95:20)
+44 verbose stack     at Request.emit (events.js:182:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/home/ilxanlar/.nvm/versions/node/v5.11.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+45 verbose statusCode 403
+46 verbose pkgid evand-landing-icons
+47 verbose cwd /home/ilxanlar/evand/evand-landing-icons
+48 error Linux 4.4.0-47-generic
+49 error argv "/home/ilxanlar/.nvm/versions/node/v5.11.0/bin/node" "/home/ilxanlar/.nvm/versions/node/v5.11.0/bin/npm" "publish"
+50 error node v5.11.0
+51 error npm  v3.8.6
+52 error code E403
+53 error "You cannot publish over the previously published version 1.0.0." : evand-landing-icons
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]

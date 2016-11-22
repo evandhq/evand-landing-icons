@@ -1,6 +1,6 @@
 {
   "name": "evand-landing-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The icon font used in evand",
   "main": "index.js",
   "repository": "https://gitlab.com/evandhq/evand-landing-icons",
