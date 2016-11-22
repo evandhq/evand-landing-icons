@@ -1,0 +1,17 @@
+{
+  "name": "evand-landing-icons",
+  "version": "1.0.0",
+  "description": "The icon font used in evand",
+  "main": "index.js",
+  "repository": "https://gitlab.com/evandhq/evand-landing-icons",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "grunt"
+  },
+  "author": "Mehdi Namvar",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-webfont": "^1.1.1"
+  }
+}
